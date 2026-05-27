@@ -1,4 +1,4 @@
-# 📚 基于 RAG 的校园校规问答助手
+# 📚 基于 RAG 的长春工业大学校园校规问答助手
 
 > 一个完整的检索增强生成（RAG）系统：上传 PDF 文档，基于 LangChain + FAISS + DeepSeek API 实现智能问答，支持多轮对话，提供 Gradio Web 界面与公网访问。
 
