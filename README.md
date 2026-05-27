@@ -43,14 +43,10 @@ pip install -r requirements.txt
 3. 配置 API 密钥
 本项目使用 DeepSeek API，你需要注册并获取 API Key。
 
-注册：DeepSeek 开放平台
 
-获取 api_key，然后在代码中设置（或通过环境变量）
-
-在 rag_app.py 中找到 API_KEY = "sk-..." 并替换为你自己的密钥。
 
 4. 准备文档
-将你想要问答的 PDF 文件放在指定路径，例如 D:\docs\school_rules.pdf，然后修改脚本开头的 PDF_PATH 变量。
+PDF_PATH="xiaogui-副本.pdf"
 
 5. 运行项目
 bash
@@ -58,22 +54,12 @@ bash
 复制
 
 下载
-python rag_app.py
-首次运行会自动：
+xiaogui.ipynb
 
-加载并切分 PDF
+公网演示截图
+”屏幕截图"
 
-下载嵌入模型（若本地没有）
 
-构建 FAISS 索引
-
-启动 Gradio 本地服务（http://localhost:7860）
-
-看到类似输出即为成功：
-
-text
-
-复制
 
 下载
 * Running on local URL:  http://0.0.0.0:7860
